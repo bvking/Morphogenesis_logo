@@ -42,7 +42,7 @@ Nouvel onglet SCENES LOGO sur la racine : Sol visible, Mur visible,
 Tube surface visible, Ombres actives. Nouveaux opérateurs : stage_floor_logo,
 stage_wall_logo (grilles réceptrices d'ombres), mat_stage_logo, mat_tube_screen.
 Les ombres soft des lumières key/spot A/spot B s'activent via « Ombres actives ».
-  - scene1_monolithe_or : arche dorée, sol sable, ombres douces au sol.
+  - a : arche dorée, sol sable, ombres douces au sol.
   - scene2_contrejour_mural : mur derrière le lettrage, double ombre projetée, acier.
   - scene3_ombres_tube : la surface du tube sert d'écran, un seul spot rasant,
     les ombres des lettres glissent sur la face du tube.
