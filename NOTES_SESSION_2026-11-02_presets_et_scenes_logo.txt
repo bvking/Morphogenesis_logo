@@ -1,0 +1,62 @@
+MORPHOGENESIS DNA — Notes de session du 2 novembre 2026
+========================================================
+Fichier canonique : Morphogenesis_DNA_V18_light_rig.toe (= .1.toe, sauvés le 02/11 à 16h27)
+
+1. SYSTÈME DE PRESETS « PRESETS V2 »
+------------------------------------
+Nouvel onglet PRESETS V2 sur le container racine MORPHOGENESIS_DNA_TD :
+  - Preset name (champ texte), Save preset, Load preset, Preset list (liste des presets).
+  - Module : textDAT presets_v2 + parameterexecuteDAT presets_v2_exec.
+  - Stockage : data/presets_v2.json (~220 paramètres par preset : tous les paramètres
+    custom en mode constant de la racine, du LIGHT_RIG et du LOGO_SPOT_LIGHTING_V02,
+    plus couleurs et dimmer des 5 lumières).
+Presets disponibles :
+  - reference_20261102, avant_scenes_logo_20261102 : états de référence.
+  - v_zoctobre, v_V16_readable, v_V17_extrude (identique à V16), v_other_toSET :
+    réglages récoltés dans les anciennes versions du projet. NB : les DONNÉES des
+    10 anciens slots PRESETS V01 (snake, aligned…) sont irrécupérables — seuls les
+    noms survivent, archivés dans archive/pages_mortes_20261102.json.
+  - scene1_monolithe_or, scene2_contrejour_mural, scene3_ombres_tube : voir §4.
+
+2. ONGLET « AMBIANCE LUMINEUSE »
+--------------------------------
+Sur la racine : Ambiance name, Save ambiance, Load ambiance, Ambiance list.
+Sauvegarde/charge uniquement l'éclairage (22 paramètres du rig + couleurs logo,
+key, rim, fill + cônes + material light response) dans data/ambiances_user.json.
+Ambiances d'usine : neon, or, lune, theatre, acide. Ambiance perso : miroir.
+
+3. AUDIT ET FACTORISATION DES PARAMÈTRES
+----------------------------------------
+Audit des 325 paramètres custom (rapport : https://claude.ai/artifact/EpMNpn6gcaFHkasorP5MHJ) :
+  - 8 pages mortes de la racine supprimées (109 paramètres, racine 251 → 146),
+    valeurs archivées dans archive/pages_mortes_20261102.json.
+  - 28 textDAT morts archivés en .py dans archive/scripts_morts_20261102/ puis détruits.
+  - Labels LOGO renommés (« Spot A img radius »…) pour lever l'ambiguïté avec le rig.
+  - Nouveaux curseurs Spot A/B cone angle sur le LOGO ; les cônes des 2 spots
+    sont recâblés en expressions dessus (la softness redevient vivante).
+
+4. SCÈNES LOGO (lettres monochromes + ombres portées)
+-----------------------------------------------------
+Galerie des 3 scènes : https://claude.ai/artifact/9nhAaBScLkWTQADyC9pq5j
+Nouvel onglet SCENES LOGO sur la racine : Sol visible, Mur visible,
+Tube surface visible, Ombres actives. Nouveaux opérateurs : stage_floor_logo,
+stage_wall_logo (grilles réceptrices d'ombres), mat_stage_logo, mat_tube_screen.
+Les ombres soft des lumières key/spot A/spot B s'activent via « Ombres actives ».
+  - scene1_monolithe_or : arche dorée, sol sable, ombres douces au sol.
+  - scene2_contrejour_mural : mur derrière le lettrage, double ombre projetée, acier.
+  - scene3_ombres_tube : la surface du tube sert d'écran, un seul spot rasant,
+    les ombres des lettres glissent sur la face du tube.
+Charger une scène : onglet PRESETS V2 → taper le nom → Load preset.
+Les lettres restent animées : chaque chargement donne une pose différente.
+
+5. PIÈGES TECHNIQUES NOTÉS (TouchDesigner 2025.32460, macOS)
+------------------------------------------------------------
+  - Un geometryCOMP n'est rendu que si son FLAG render (coin du node) ET son
+    paramètre Render sont actifs — le tube surface avait le flag éteint.
+  - project.save vers un nom occupé ouvre un dialogue modal bloquant : déplacer
+    le fichier cible avant de sauver (copies horodatées dans Backup/).
+  - Les callbacks onPulse des boutons custom s'exécutent à la frame suivante.
+  - La timeline est gelée quand TouchDesigner n'a pas le focus.
+
+Dossiers : data/ (presets + ambiances), archive/ (scripts et pages archivés),
+Backup/ (copies horodatées des .toe, non versionné).

@@ -1,2 +1,4 @@
 .DS_Store
 *.toe.dir/
+*.toc
+Backup/

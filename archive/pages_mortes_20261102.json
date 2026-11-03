@@ -1,0 +1,563 @@
+{
+ "DNA V12D": {
+  "Extrude3dactive": {
+   "label": "Extrude 3D active",
+   "style": "Float",
+   "val": 1.0
+  },
+  "Extrude3ddepth": {
+   "label": "Extrude 3D depth",
+   "style": "Float",
+   "val": 0.0
+  },
+  "Extrude3dfrontback": {
+   "label": "Extrude front/back faces",
+   "style": "Float",
+   "val": 1.0
+  },
+  "Extrude3dsides": {
+   "label": "Extrude side mesh",
+   "style": "Float",
+   "val": 1.0
+  },
+  "Extrude3dcusp": {
+   "label": "Extrude cusp edges",
+   "style": "Float",
+   "val": 1.0
+  },
+  "Extrude3dcuspangle": {
+   "label": "Extrude cusp angle",
+   "style": "Float",
+   "val": 24.0
+  },
+  "Extrude3dnormalgain": {
+   "label": "Extrude normal gain",
+   "style": "Float",
+   "val": 1.25
+  },
+  "Extrude3dtextlod": {
+   "label": "Text LOD",
+   "style": "Float",
+   "val": 0.08
+  },
+  "Extrude3dmatboost": {
+   "label": "3D material boost",
+   "style": "Float",
+   "val": 0.12
+  }
+ },
+ "DNA V13": {
+  "V13gpuactive": {
+   "label": "V13 GPU active",
+   "style": "Float",
+   "val": 0.159
+  },
+  "V13gpudebugflat": {
+   "label": "V13 GPU debug flat",
+   "style": "Float",
+   "val": 0.143
+  },
+  "V13gpuspecboost": {
+   "label": "V13 GPU spec boost",
+   "style": "Float",
+   "val": 0.54
+  },
+  "V13gpurimboost": {
+   "label": "V13 GPU rim boost",
+   "style": "Float",
+   "val": 0.41
+  },
+  "V13gpuambient": {
+   "label": "V13 GPU ambient",
+   "style": "Float",
+   "val": 0.08
+  }
+ },
+ "DNA V14 LITE": {
+  "V14liteactive": {
+   "label": "V14 lite active",
+   "style": "Float",
+   "val": 1.0
+  },
+  "V14textlod": {
+   "label": "V14 text LOD",
+   "style": "Float",
+   "val": 0.08
+  },
+  "V14useextrude": {
+   "label": "V14 use extrusion",
+   "style": "Float",
+   "val": 0.0
+  },
+  "V14cookrate": {
+   "label": "V14 cook rate",
+   "style": "Float",
+   "val": 1.0
+  },
+  "V14lettersize": {
+   "label": "V14 letter size multiplier",
+   "style": "Float",
+   "val": 1.0
+  }
+ },
+ "DNA V15 ORGANIC": {
+  "V15organicactive": {
+   "label": "Organic material active",
+   "style": "Float",
+   "val": 1.0
+  },
+  "V15texspeed": {
+   "label": "Organic texture speed",
+   "style": "Float",
+   "val": 0.1
+  },
+  "V15texscale": {
+   "label": "Organic texture scale",
+   "style": "Float",
+   "val": 3.5
+  },
+  "V15texcontrast": {
+   "label": "Organic texture contrast",
+   "style": "Float",
+   "val": 1.35
+  },
+  "V15texbrightness": {
+   "label": "Organic texture brightness",
+   "style": "Float",
+   "val": 0.08
+  },
+  "V15shine": {
+   "label": "Letter shine",
+   "style": "Float",
+   "val": 0.85
+  },
+  "V15shininess": {
+   "label": "Letter shininess",
+   "style": "Float",
+   "val": 0.72
+  },
+  "V15emission": {
+   "label": "Letter living emission",
+   "style": "Float",
+   "val": 0.11
+  },
+  "V15ambient": {
+   "label": "Letter ambient",
+   "style": "Float",
+   "val": 0.26
+  },
+  "V15rim": {
+   "label": "Rim light strength",
+   "style": "Float",
+   "val": 1.35
+  },
+  "V15usenormals": {
+   "label": "Use light normals",
+   "style": "Float",
+   "val": 1.0
+  },
+  "V15uvscale": {
+   "label": "UV scale",
+   "style": "Float",
+   "val": 1.0
+  },
+  "V15lightmotion": {
+   "label": "Light motion",
+   "style": "Float",
+   "val": 0.08
+  },
+  "V15wirevisible": {
+   "label": "Wire tube visible",
+   "style": "Float",
+   "val": 1.0
+  },
+  "V14wirerows": {
+   "label": "V14 wire rows safe",
+   "style": "Float",
+   "val": 3.0
+  },
+  "V14wirecols": {
+   "label": "V14 wire cols safe",
+   "style": "Float",
+   "val": 18.0
+  },
+  "V14renderx": {
+   "label": "V14 render X safe",
+   "style": "Float",
+   "val": 320.0
+  },
+  "V14rendery": {
+   "label": "V14 render Y safe",
+   "style": "Float",
+   "val": 180.0
+  }
+ },
+ "DNA V15C REPAIR": {
+  "V15cvisibleactive": {
+   "label": "V15C visible active",
+   "style": "Float",
+   "val": 1.0
+  },
+  "V15cbrightness": {
+   "label": "V15C brightness",
+   "style": "Float",
+   "val": 1.0
+  },
+  "V15cemission": {
+   "label": "V15C emission",
+   "style": "Float",
+   "val": 0.18
+  },
+  "V15cshininess": {
+   "label": "V15C shininess",
+   "style": "Float",
+   "val": 0.72
+  },
+  "V15cspecular": {
+   "label": "V15C specular",
+   "style": "Float",
+   "val": 1.08
+  },
+  "V15cusetexture": {
+   "label": "V15C use texture",
+   "style": "Float",
+   "val": 0.0
+  }
+ },
+ "DNA V15I Y BUTTON": {
+  "V15iyonly": {
+   "label": "Y only 180 toggle",
+   "style": "Toggle",
+   "val": false
+  }
+ },
+ "DNA V15J XY BUTTONS": {
+  "V15ixonly": {
+   "label": "X only 180 toggle",
+   "style": "Toggle",
+   "val": false
+  }
+ },
+ "PRESETS V01": {
+  "Presetnamea": {
+   "label": "Preset 01 Name",
+   "style": "Str",
+   "val": "snake"
+  },
+  "Savea": {
+   "label": "Save 01",
+   "style": "Pulse",
+   "val": null
+  },
+  "Loada": {
+   "label": "Load 01",
+   "style": "Pulse",
+   "val": null
+  },
+  "Presetnameb": {
+   "label": "Preset 02 Name",
+   "style": "Str",
+   "val": "snaked"
+  },
+  "Saveb": {
+   "label": "Save 02",
+   "style": "Pulse",
+   "val": null
+  },
+  "Loadb": {
+   "label": "Load 02",
+   "style": "Pulse",
+   "val": null
+  },
+  "Presetnamec": {
+   "label": "Preset 03 Name",
+   "style": "Str",
+   "val": "aligned"
+  },
+  "Savec": {
+   "label": "Save 03",
+   "style": "Pulse",
+   "val": null
+  },
+  "Loadc": {
+   "label": "Load 03",
+   "style": "Pulse",
+   "val": null
+  },
+  "Presetnamed": {
+   "label": "Preset 04 Name",
+   "style": "Str",
+   "val": "Good  Back"
+  },
+  "Saved": {
+   "label": "Save 04",
+   "style": "Pulse",
+   "val": null
+  },
+  "Loadd": {
+   "label": "Load 04",
+   "style": "Pulse",
+   "val": null
+  },
+  "Presetnamee": {
+   "label": "Preset 05 Name",
+   "style": "Str",
+   "val": "slow"
+  },
+  "Savee": {
+   "label": "Save 05",
+   "style": "Pulse",
+   "val": null
+  },
+  "Loade": {
+   "label": "Load 05",
+   "style": "Pulse",
+   "val": null
+  },
+  "Presetnamef": {
+   "label": "Preset 06 Name",
+   "style": "Str",
+   "val": "Satic_GOOD"
+  },
+  "Savef": {
+   "label": "Save 06",
+   "style": "Pulse",
+   "val": null
+  },
+  "Loadf": {
+   "label": "Load 06",
+   "style": "Pulse",
+   "val": null
+  },
+  "Presetnameg": {
+   "label": "Preset 07 Name",
+   "style": "Str",
+   "val": "static_sanke"
+  },
+  "Saveg": {
+   "label": "Save 07",
+   "style": "Pulse",
+   "val": null
+  },
+  "Loadg": {
+   "label": "Load 07",
+   "style": "Pulse",
+   "val": null
+  },
+  "Presetnameh": {
+   "label": "Preset 08 Name",
+   "style": "Str",
+   "val": "small_radius&pitch"
+  },
+  "Saveh": {
+   "label": "Save 08",
+   "style": "Pulse",
+   "val": null
+  },
+  "Loadh": {
+   "label": "Load 08",
+   "style": "Pulse",
+   "val": null
+  },
+  "Presetnamei": {
+   "label": "Preset 09 Name",
+   "style": "Str",
+   "val": "Preset Fil letter 190°"
+  },
+  "Savei": {
+   "label": "Save 09",
+   "style": "Pulse",
+   "val": null
+  },
+  "Loadi": {
+   "label": "Load 09",
+   "style": "Pulse",
+   "val": null
+  },
+  "Presetnamej": {
+   "label": "Preset 10 Name",
+   "style": "Str",
+   "val": "light_sparkling"
+  },
+  "Savej": {
+   "label": "Save 10",
+   "style": "Pulse",
+   "val": null
+  },
+  "Loadj": {
+   "label": "Load 10",
+   "style": "Pulse",
+   "val": null
+  },
+  "Presetblink": {
+   "label": "Flash Duration Frames",
+   "style": "Float",
+   "val": 67.0
+  },
+  "Saveflasha": {
+   "label": "SAVE 01 OK",
+   "style": "Toggle",
+   "val": false
+  },
+  "Loadflasha": {
+   "label": "LOAD 01 OK",
+   "style": "Toggle",
+   "val": false
+  },
+  "Loadedslota": {
+   "label": "LOADED 01",
+   "style": "Toggle",
+   "val": false
+  },
+  "Saveflashb": {
+   "label": "SAVE 02 OK",
+   "style": "Toggle",
+   "val": false
+  },
+  "Loadflashb": {
+   "label": "LOAD 02 OK",
+   "style": "Toggle",
+   "val": false
+  },
+  "Loadedslotb": {
+   "label": "LOADED 02",
+   "style": "Toggle",
+   "val": false
+  },
+  "Saveflashc": {
+   "label": "SAVE 03 OK",
+   "style": "Toggle",
+   "val": false
+  },
+  "Loadflashc": {
+   "label": "LOAD 03 OK",
+   "style": "Toggle",
+   "val": false
+  },
+  "Loadedslotc": {
+   "label": "LOADED 03",
+   "style": "Toggle",
+   "val": false
+  },
+  "Saveflashd": {
+   "label": "SAVE 04 OK",
+   "style": "Toggle",
+   "val": false
+  },
+  "Loadflashd": {
+   "label": "LOAD 04 OK",
+   "style": "Toggle",
+   "val": false
+  },
+  "Loadedslotd": {
+   "label": "LOADED 04",
+   "style": "Toggle",
+   "val": false
+  },
+  "Saveflashe": {
+   "label": "SAVE 05 OK",
+   "style": "Toggle",
+   "val": false
+  },
+  "Loadflashe": {
+   "label": "LOAD 05 OK",
+   "style": "Toggle",
+   "val": false
+  },
+  "Loadedslote": {
+   "label": "LOADED 05",
+   "style": "Toggle",
+   "val": false
+  },
+  "Saveflashf": {
+   "label": "SAVE 06 OK",
+   "style": "Toggle",
+   "val": false
+  },
+  "Loadflashf": {
+   "label": "LOAD 06 OK",
+   "style": "Toggle",
+   "val": false
+  },
+  "Loadedslotf": {
+   "label": "LOADED 06",
+   "style": "Toggle",
+   "val": false
+  },
+  "Saveflashg": {
+   "label": "SAVE 07 OK",
+   "style": "Toggle",
+   "val": false
+  },
+  "Loadflashg": {
+   "label": "LOAD 07 OK",
+   "style": "Toggle",
+   "val": false
+  },
+  "Loadedslotg": {
+   "label": "LOADED 07",
+   "style": "Toggle",
+   "val": false
+  },
+  "Saveflashh": {
+   "label": "SAVE 08 OK",
+   "style": "Toggle",
+   "val": false
+  },
+  "Loadflashh": {
+   "label": "LOAD 08 OK",
+   "style": "Toggle",
+   "val": false
+  },
+  "Loadedsloth": {
+   "label": "LOADED 08",
+   "style": "Toggle",
+   "val": false
+  },
+  "Saveflashi": {
+   "label": "SAVE 09 OK",
+   "style": "Toggle",
+   "val": false
+  },
+  "Loadflashi": {
+   "label": "LOAD 09 OK",
+   "style": "Toggle",
+   "val": false
+  },
+  "Loadedsloti": {
+   "label": "LOADED 09",
+   "style": "Toggle",
+   "val": false
+  },
+  "Saveflashj": {
+   "label": "SAVE 10 OK",
+   "style": "Toggle",
+   "val": false
+  },
+  "Loadflashj": {
+   "label": "LOAD 10 OK",
+   "style": "Toggle",
+   "val": false
+  },
+  "Loadedslotj": {
+   "label": "LOADED 10",
+   "style": "Toggle",
+   "val": false
+  },
+  "Refreshletters": {
+   "label": "Refresh letters",
+   "style": "Pulse",
+   "val": null
+  },
+  "Letterrefreshms": {
+   "label": "Letter refresh ms",
+   "style": "Float",
+   "val": 120.0
+  },
+  "Autorefreshletters": {
+   "label": "Auto refresh letters",
+   "style": "Toggle",
+   "val": true
+  }
+ }
+}

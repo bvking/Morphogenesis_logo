@@ -1,0 +1,62 @@
+{
+ "miroir": {
+  "label": "Miroir \u2014 reglage perso du 2026-11-02",
+  "rig": {
+   "Keyazimuth": 26.131,
+   "Keyelevation": 29.9394,
+   "Keyradius": 6.812488532100439,
+   "Keyintensity": 2.3,
+   "Rimazimuth": -131.8202,
+   "Rimelevation": 28.7723,
+   "Rimradius": 5.817215828899594,
+   "Rimintensity": 1.7,
+   "Spotaazimuth": -14.1871,
+   "Spotaelevation": -16.6157,
+   "Spotaradius": 5.382027220295342,
+   "Spotaintensity": 1.246,
+   "Spotaaimx": -3.8608,
+   "Spotaaimy": -1.539,
+   "Spotaaimz": 0.0,
+   "Spotbazimuth": 23.1322,
+   "Spotbelevation": 11.5536,
+   "Spotbradius": 5.54958811534694,
+   "Spotbintensity": 0.4984,
+   "Spotbaimx": 4.3643,
+   "Spotbaimy": -0.2809,
+   "Spotbaimz": 0.0
+  },
+  "logo": {
+   "Spotar": 0.0,
+   "Spotag": 0.75,
+   "Spotab": 1.0,
+   "Spotbr": 1.0,
+   "Spotbg": 0.12,
+   "Spotbb": 0.55
+  },
+  "key": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "rim": [
+   0.6,
+   0.7,
+   1.0
+  ],
+  "fill": [
+   0.5,
+   0.6,
+   1.0
+  ],
+  "filldim": 0.08,
+  "conea": [
+   38.0,
+   10.0
+  ],
+  "coneb": [
+   38.0,
+   10.0
+  ],
+  "mlr": 0.95
+ }
+}
